@@ -1,0 +1,40 @@
+.Layout {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto 0;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.Layout p {
+    margin: 0;
+}
+
+.Layout-bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.Layout-bottom button {
+    background-color: #03A9F4;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 5px;
+    transition: .3s ease all;
+}
+
+
+.Layout-bottom button:hover {
+    cursor: pointer;
+    background-color: #212121;
+}
+
+.Layout-bottom p{
+  font-size: 28px;
+}

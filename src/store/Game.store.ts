@@ -83,9 +83,6 @@ class GameStore {
     @action('start new game')
     startNewGame() {
         this.initGame();
-        this.isX = true;
-        this.isWinner = false;
-        this.winner = null;
     }
 }
 
